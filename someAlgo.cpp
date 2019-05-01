@@ -19,7 +19,7 @@ void dfs(long long int a[],int n,vector<int> adj[],int dp[],int u)
     {
         if(dp[*it]>max && a[*it]-a[u]>k)
         {
-            max=dp[*it];flag=1;
+            max=dp[*it];flag=0;
         }
     }
     if(flag==0)
