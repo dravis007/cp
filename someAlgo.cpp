@@ -68,7 +68,7 @@ int main() {
             if(dp[i]>max)
             max=dp[i];
         }
-        cout<<max<<endl;
+        //cout<<max<<endl;
 	}
 	return 0;
 }
